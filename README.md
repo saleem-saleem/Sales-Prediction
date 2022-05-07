@@ -5,9 +5,13 @@ Many seasons have sales that are considerably higher or lower than the average i
 Benefits:
 
 To determine seasonal demands and take action for this
+
 Protecting from money loss because achieving sales targets can have a positive effect on stock prices and investors' perceptions
+
 Forecasting revenue easily and accurately
+
 Managing inventories
+
 Do more effective campaigns
 
 Objectives:
