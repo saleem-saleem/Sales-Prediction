@@ -1,27 +1,24 @@
 # Sales-Prediction
 Problem Statement:
-There are many seasons that sales are significantly higher or lower than averages. If the company does not know about these seasons, it can lose too much money. Predicting future sales is one of the most crucial plans for a company. Sales forecasting gives an idea to the company for arranging stocks, calculating revenue, and deciding to make a new investment. Another advantage of knowing future sales is that achieving predetermined targets from the beginning of the seasons can have a positive effect on stock prices and investors' perceptions. Also, not reaching the projected target could significantly damage stock prices, conversely. And, it will be a big problem especially for Reliance as a big company. Aim of this project is to build a model which predicts sales of the stores. With this model, Reliance authorities can decide their future plans which is very important for arranging stocks, calculating revenue and deciding to make new investment or not.
+Many seasons have sales that are considerably higher or lower than the average income. If the corporation is unaware of these seasons, it risks losing a significant amount of money. One of a company's most important plans is to forecast future sales. Sales forecasting offers a corporation an idea for stocking shelves, calculating revenue, and selecting whether or not to make a new investment. Another benefit of forecasting future sales is that hitting specified goals early in the season may boost stock prices and investors' opinions. In addition, failing to meet the planned objective might have a substantial negative impact on stock values. And that will be a major issue, particularly for Reliance as a large corporation.The goal of this project is to create a model that forecasts retail sales. Reliance authorities may select their future plans using this model, which is critical for stock management, revenue calculation, and determining whether or not to make new investments.
 
-Solution:
-With the accurate prediction company can;
+Benefits:
 
-Determine seasonal demands and take action for this
-Protect from money loss because achieving sales targets can have a positive effect on stock prices and investors' perceptions
-Forecast revenue easily and accurately
-Manage inventories
+To determine seasonal demands and take action for this
+Protecting from money loss because achieving sales targets can have a positive effect on stock prices and investors' perceptions
+Forecasting revenue easily and accurately
+Managing inventories
 Do more effective campaigns
 
-Metric:
-The metric of the competition is weighted mean absolute error (WMAE). Weight of the error changes when it is holiday.
+Objectives:
 
 Understanding, Cleaning and Exploring Data: The first challange of this data is that there are too much seasonal effects on sales. Some departments have higher sales in some seasons but on average the best departments are different. To analyze these effects, data divided weeks of the year and also holiday dates categorized.
 
 Preparing Data to Modeling: Boolean and string features encoded and whole columns encoded.
 
-Random Forest Regressor: Feature selection was done according to feature importance and as a best result 1801 error found.
+Random Forest Regressor: Feature selection was done according to feature importance
 
-ARIMA/ExponentialSmooting/ARCH Models: Second challange in this data is that it is not stationary. To make data more stationary taking difference,log and shift techniques applied. The least error was found with ExponentialSmooting as 821.
-
+ARIMA/ExponentialSmooting/ARCH Models: Second challange in this data is that it is not stationary. To make data more stationary taking difference,log and shift techniques applied.
 Findings:
 Although some departments has higher sales, on average others can be best. It shows us, some departments has effect on sales on some seasons like Thanksgiving.
 It is same for stores, means that some areas has higher seasonal sales.
