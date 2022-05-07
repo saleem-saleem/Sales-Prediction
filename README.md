@@ -1,4 +1,4 @@
-# Sales-Prediction
+# Reliance-Sales-Prediction
 
 Reliance's data scientists gathered sales data for 1559 goods across 45 outlets in various cities from 2010 to 2012. In addition, certain characteristics of each product and retailer have been determined. The goal is to create a prediction model and determine the sales of each product in each store. Create a model for Reliance to use to analyse and forecast outlet production sales. The following are the properties of each section: the related store (recorded as a number), the comparing division (81 offices, each entered as a number), the date of the first day of that week, departmental week after week deals, the store measure, and a Boolean value indicating whether there is a major event within the week. The important holidays are Diwali, Eid, and Christmas-New Year. A parallel set of highlights for each section, including Customer Cost List, unemployment rate, temperature, gasoline cost, and special markdowns, may be included in addition to the previously listed features.
 
